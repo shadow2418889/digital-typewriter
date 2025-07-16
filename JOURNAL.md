@@ -19,7 +19,7 @@ _*more features could be added later, I would just like to get all the hardware 
 - Found a cheap e-ink display commonly used for IOT labels
 - Kailh low profile switches because a) they offer a good typing experience while still being small b) i have some 
 
-![block diagram](https://i.ibb.co/xqzbgHb4/image.png)
+![block diagram](./journal%20images/Basic%20block%20diagram.png)
 
 **Total time spent: 2h**
 
@@ -37,9 +37,23 @@ More stuff? I dislike using modules, but I'll swallow my pride/succumb to lazine
 
 Currently I'm leaning towards buying and prototyping with these modules, then combining everything with a proper PCB.
 
-![detailed block diagram](https://i.ibb.co/VYQpbRyc/Detailed-Block-Diagram.png)
+![detailed block diagram](./journal%20images/Detailed%20Block%20Diagram.png)
 
 **Total time spent: 3h**
+
+# July 15th: Ordering Parts and Designing the Keyboard
+
+Ordered the e-ink display and sd card early for testing. The project is likely going to go over $150 anyways so making these purchases without the grant money should be fine.
+
+To keep the work going, I started work on the keyboard portion of the device. I decided to use mx spacing (19.05mm x 19.05mm) and created a keyboard layout similar to the JD40.
+![keyboard layout](./journal%20assets/keyboard%20layout.png)
+
+Heres the schematic I created in KiCad
+![early schematic](./journal%20assets/starting%20keyboard%20design.png)
+
+
+**Total time spent: 3h**
+
 
 
 # Month Day: Title
