@@ -1,4 +1,4 @@
-27609235569045571
+27619752408624479
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59219,6 +59219,41 @@ ceramic
 0
 3
 3
+Custom
+FPC_15
+
+
+0
+17
+17
+Custom
+MX Hotswap_Choc_V1_Plated_1.00u
+Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u
+Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u
+0
+6
+2
+Custom
+MX Hotswap_Choc_V1_Plated_1.25u
+Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u
+Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u
+0
+6
+2
+Custom
+MX Hotswap_Choc_V1_Plated_1.75u
+Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u
+Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u
+0
+6
+2
+Custom
+MX Hotswap_Choc_V1_Plated_2.25u
+Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u
+Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u
+0
+6
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -70178,6 +70213,13 @@ LED_THT
 LED_VCCLite_5381H7_6.35x6.35mm
 Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimport/files/files/5381Series.pdf http://static.vcclite.com/pdf/Mounting%20Hole%20Pattern%202.pdf
 Yellow 5381 Series LED
+0
+2
+2
+Library
+Hotswap_Choc_V2_1.00u
+Choc keyswitch V2 CPG1353 V2 Hotswap Keycap 1.00u
+Choc Keyswitch Switch CPG1353 V2 Hotswap Cutout Keycap 1.00u
 0
 2
 2

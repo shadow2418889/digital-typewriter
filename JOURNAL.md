@@ -39,7 +39,7 @@ Currently I'm leaning towards buying and prototyping with these modules, then co
 
 ![detailed block diagram](./journal%20images/Detailed%20Block%20Diagram.png)
 
-**Total time spent: 3h**
+**Total time spent: 2.5h**
 
 # July 15th: Ordering Parts and Designing the Keyboard
 
@@ -49,12 +49,24 @@ To keep the work going, I started work on the keyboard portion of the device. I 
 ![keyboard layout](./journal%20assets/keyboard%20layout.png)
 
 Heres the schematic I created in KiCad
-![early schematic](./journal%20assets/starting%20keyboard%20design.png)
+![early keyboard schematic](./journal%20assets/starting%20keyboard%20design.png)
 
+After doing some research, I belive that FFC cables will be the best to use in connecting the keyboard with the rest of the computer. As a design consideration, a slot will need to be cut into the mainboard to ensure that connections dont get reversed.
 
-**Total time spent: 3h**
+**Total time spent: 4h**
 
+# Jky 18th: FFC Connector and Laying Out the Keyboard
 
+After sourcing a JST connector from JLC, I created and recreated the symbol and footprint of the FFC connector...
+![connector symbol and footprint](./journal%20assets/ffc%20symbol%20and%20footprint.png)
+
+...then updated the schematic with the new connector.
+![completed keyboard schematic](./journal%20assets/finished%20keyboard.png)
+Then I went through the tedious process of laying out componenets and routing traces. Because I'm using choc switches with MX spacing, I had to create new footprints based off of Scottokeeb's hotswap choc footprint.
+![completed keyboard layout](./journal%20assets/keyboard%20layout.png)
+I may try to make the keyboard even smaller by moving the JST connector, but for now I am quite satisfied with my design.
+
+**Total time spent: 5h**
 
 # Month Day: Title
 
