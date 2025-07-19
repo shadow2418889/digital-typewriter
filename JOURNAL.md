@@ -19,7 +19,7 @@ _*more features could be added later, I would just like to get all the hardware 
 - Found a cheap e-ink display commonly used for IOT labels
 - Kailh low profile switches because a) they offer a good typing experience while still being small b) i have some 
 
-![block diagram](./journal%20images/Basic%20block%20diagram.png)
+![block diagram](./journal%20assets/Basic%20block%20diagram.png)
 
 **Total time spent: 2h**
 
@@ -37,7 +37,7 @@ More stuff? I dislike using modules, but I'll swallow my pride/succumb to lazine
 
 Currently I'm leaning towards buying and prototyping with these modules, then combining everything with a proper PCB.
 
-![detailed block diagram](./journal%20images/Detailed%20Block%20Diagram.png)
+![detailed block diagram](./journal%20assets/Detailed%20Block%20Diagram.png)
 
 **Total time spent: 2.5h**
 
@@ -55,7 +55,7 @@ After doing some research, I belive that FFC cables will be the best to use in c
 
 **Total time spent: 4h**
 
-# Jky 18th: FFC Connector and Laying Out the Keyboard
+# July 17th: FFC Connector and Laying Out the Keyboard
 
 After sourcing a JST connector from JLC, I created and recreated the symbol and footprint of the FFC connector...
 ![connector symbol and footprint](./journal%20assets/ffc%20symbol%20and%20footprint.png)
@@ -64,9 +64,21 @@ After sourcing a JST connector from JLC, I created and recreated the symbol and 
 ![completed keyboard schematic](./journal%20assets/finished%20keyboard.png)
 Then I went through the tedious process of laying out componenets and routing traces. Because I'm using choc switches with MX spacing, I had to create new footprints based off of Scottokeeb's hotswap choc footprint.
 ![completed keyboard layout](./journal%20assets/keyboard%20layout.png)
-I may try to make the keyboard even smaller by moving the JST connector, but for now I am quite satisfied with my design.
+I may try to make the keyboard even smaller by moving the FCC connector, but for now I am quite satisfied with my design.
 
 **Total time spent: 5h**
+
+# July 18th: Fixes and OLED
+
+I realized I actually misoriented the connector so I decided to just redo the entire system again, making everything more compact in the process.
+![even more completed keyboard layout](./journal%20assets/improved%20finished%20keyboard.png)
+
+Another conclusion that I came to is that the motherboard should be split into component modules—the lack of ability to prototype within this project and timeframe means that parts will definetly not work on the first try. By making parts swappable, I can mitigate the damage of each iteration.
+
+I also decied to use a differnet OLED module that is now 64*256. While that means I'll need another SPI peripheral instead of I2C, this module should be easier to implement and display more data.
+
+**Total time spent: 1h**
+
 
 # Month Day: Title
 
@@ -75,5 +87,3 @@ I may try to make the keyboard even smaller by moving the JST connector, but for
 [insert pictures of what you're working on!]
 
 **Total time spent: time**
-
-https://imgbb.com/
