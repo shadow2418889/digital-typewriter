@@ -75,10 +75,18 @@ I realized I actually misoriented the connector so I decided to just redo the en
 
 Another conclusion that I came to is that the motherboard should be split into component modules—the lack of ability to prototype within this project and timeframe means that parts will definetly not work on the first try. By making parts swappable, I can mitigate the damage of each iteration.
 
-I also decied to use a differnet OLED module that is now 64*256. While that means I'll need another SPI peripheral instead of I2C, this module should be easier to implement and display more data.
+I also decied to use a differnet OLED module that is now 64*256px. While that means I'll need another SPI peripheral instead of I2C, this module should be easier to implement and display more data.
 
 **Total time spent: 1h**
 
+# July 19: Power Management
+I created the usb-c port program the ESP32-s3-wroom module with.
+![usb schematic](./journal%20assets/usb+power.png)
+Because the battery module I plan to use outputs 4.5-3v, I settled on the TPS79533DCQR to regulate 3.3v to the ESP32-s3-wroom-u. It has a ~105mV dropout voltage and low noise—perfect for the ESP32.
+![power system block diagram](./journal%20assets/Power%20System.png)
+
+
+**Total time spent: 3h**
 
 # Month Day: Title
 
