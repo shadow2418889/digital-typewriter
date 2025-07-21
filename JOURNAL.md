@@ -79,12 +79,19 @@ I also decied to use a differnet OLED module that is now 64*256px. While that me
 
 **Total time spent: 1h**
 
-# July 19: Power Management
+# July 19th: Power Management
 I created the usb-c port program the ESP32-s3-wroom module with.
 ![usb schematic](./journal%20assets/usb+power.png)
 Because the battery module I plan to use outputs 4.5-3v, I settled on the TPS79533DCQR to regulate 3.3v to the ESP32-s3-wroom-u. It has a ~105mV dropout voltage and low noise—perfect for the ESP32.
 ![power system block diagram](./journal%20assets/Power%20System.png)
 
+
+**Total time spent: 3h**
+
+# July 20th: ESP32
+
+With the power situation figured out, I added in the esp32 and its basic peripherals to the schematic. I had some confusion about the power system and how everything was going to be grounded, but I believe that my schematic works properly now.
+![esp added to schematic](./journal%20assets/esp32ed.png)
 
 **Total time spent: 3h**
 
