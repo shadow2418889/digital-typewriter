@@ -95,6 +95,21 @@ With the power situation figured out, I added in the esp32 and its basic periphe
 
 **Total time spent: 3h**
 
+# July 22nd: OLED Testing
+
+The OLED module arrived so I took the time to test it and gain some familiarity with using SPI on the ESP32. I (messily) created a small test circuit on a breadboard...
+![oled and esp32 on breadboard](./journal%20assets/oled%20breadboard.jpg)
+
+and wrote some basic code using U8g2lib. The idea is to have text be centered and have the font shrink when the text gets too big to fit on the OLED...
+
+![display text code](./journal%20assets/displaytext.png)
+
+For a small test of the OLED module, I am quite satisfied wtith the result!
+
+![oled test](./journal%20assets/oled%20works.gif)
+
+**Total time spent: 4h**
+
 # Month Day: Title
 
 [actual journal content - what did you do?]
