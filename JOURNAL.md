@@ -110,10 +110,43 @@ For a small test of the OLED module, I am quite satisfied wtith the result!
 
 **Total time spent: 4h**
 
+# July 25th: VSPI and Optimizing OLED Testing
+
+I took the time to optimize the OLED testing script (I'll be reusing this code for the final typewriter) to work with any U8g2 fonts and tested the VSPI bus.
+
+![better oled test](./journal%20assets/better%20displaytext.png)
+
+With this knowledge, I decided on how I would distribute the SPI devices on the buses:
+![spi bus distribution](./journal%20assets/spi%20bus%20distribution.png)
+
+**Total time spent: 2h**
+
+# July 26th: Adding Peripherals to Schematic
+To finish up the schematic, I created the rest of the module symbols:
+
+<table>
+  <tr>
+    <td>
+      <img src="./journal%20assets/oled%20symbol.png" alt="oled symbol" />
+    </td>
+    <td>
+      <img src="./journal%20assets/eink%20symbol.png" alt="eink symbol" />
+    </td>
+    <td>
+      <img src="./journal%20assets/sd%20card%20symbol.png" alt="sdcard symbol" />
+    </td>
+  </tr>
+</table>
+
+...and attached the power and GPIO pins for each module:
+![finished? schematic](./journal%20assets/gpios%20assigned.png)
+
+Pins will probably need to be moved around later to make routing easier, but thats a problem for another time.
+
+**Total time spent: 4h**
+
 # Month Day: Title
 
-[actual journal content - what did you do?]
 
-[insert pictures of what you're working on!]
 
 **Total time spent: time**
