@@ -7587,7 +7587,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 123.698 105.41 90)
 			(effects
 				(font
@@ -7657,7 +7657,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 255.778 127 90)
 			(effects
 				(font
@@ -7845,7 +7845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 103.8352 116.84 0)
 			(effects
 				(font
@@ -7915,7 +7915,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 197.358 40.64 90)
 			(effects
 				(font
@@ -8049,7 +8049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Custom:1N5819HW-7-F"
 			(at 97.79 31.115 0)
 			(effects
 				(font
@@ -8117,7 +8117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom:B3F-1000"
 			(at 243.84 31.75 0)
 			(effects
 				(font
@@ -8260,7 +8260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 176.2252 33.02 0)
 			(effects
 				(font
@@ -8397,7 +8397,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 257.048 34.29 90)
 			(effects
 				(font
@@ -8533,7 +8533,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom:KT-0805G"
 			(at 121.92 114.3 0)
 			(effects
 				(font
@@ -8610,7 +8610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom:B3F-1000"
 			(at 242.57 124.46 0)
 			(effects
 				(font
@@ -8686,7 +8686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 188.9252 33.02 0)
 			(effects
 				(font
@@ -8820,7 +8820,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom:B3F-1000"
 			(at 242.57 77.47 0)
 			(effects
 				(font
@@ -8894,7 +8894,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 58.42 42.418 90)
 			(effects
 				(font
@@ -8964,7 +8964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom:LESD5D5"
 			(at 87.63 64.77 0)
 			(effects
 				(font
@@ -9032,7 +9032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 64.77 41.402 90)
 			(effects
 				(font
@@ -9100,7 +9100,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 99.06 96.2152 0)
 			(effects
 				(font
@@ -9391,7 +9391,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 155.448 50.8 90)
 			(effects
 				(font
@@ -9461,7 +9461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom:LESD5D5"
 			(at 96.52 64.77 0)
 			(effects
 				(font
@@ -9850,7 +9850,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom:USB_C_Receptacle_16P"
 			(at 40.64 50.8 0)
 			(effects
 				(font
@@ -9965,7 +9965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 154.6352 69.85 0)
 			(effects
 				(font
@@ -10035,7 +10035,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 255.778 80.01 90)
 			(effects
 				(font
@@ -10105,7 +10105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 252.4252 95.25 0)
 			(effects
 				(font
@@ -10517,7 +10517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom:TPS795"
 			(at 88.265 102.87 0)
 			(effects
 				(font
@@ -10690,7 +10690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 253.6952 49.53 0)
 			(effects
 				(font
@@ -10827,7 +10827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom:LESD5D5"
 			(at 105.41 64.77 0)
 			(effects
 				(font
@@ -10897,7 +10897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 119.0752 45.72 0)
 			(effects
 				(font

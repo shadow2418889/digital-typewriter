@@ -145,8 +145,22 @@ Pins will probably need to be moved around later to make routing easier, but tha
 
 **Total time spent: 4h**
 
-# Month Day: Title
+# July 29th: CAD Mockup and Pre-layouting
 
+Before I start the layouting of the mainboard, I wanted to get an idea of how everything would be wired with a quick cad model:
+![preliminary mainboard cad](./journal%20assets/prelim%20cad.png)
+
+Then I started finding componenets on JLC for all the basic SMD components. Because the mainboard PCB will be 2 layer, I decided on 0805 size so that I could run traces underneath all the components if necessary.
+
+I made a couple custom footprints (diodes, LDO, buttons) but the one that gave me the most headache was the USB-C connector. Not wanting to risk a faulty connection with the connector ordered from JLCPCB, I had to go into the datasheet and faithfully recreate the footprint and pin assignments:
+![usb c footprint](./journal%20assets/usb-c%20footprint.png)
+After that ordeal, I am much more grateful towards the uniformity of mechanical drawings and the standardization of USB connectors.
+
+With this major headache out of the way, the only footprints left to design are the ones that will be wired to the peripherals—then I can start laying everything out.
+
+**Total time spent: 5h**
+
+# Month Day: Title
 
 
 **Total time spent: time**
