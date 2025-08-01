@@ -1,4 +1,4 @@
-27630275547732163
+27637291401708237
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59227,12 +59227,33 @@ Custom
 2
 2
 Custom
+Adafruit MicroSD Module
+
+
+0
+9
+9
+Custom
+Adafruit bq25185 Module
+
+
+0
+4
+4
+Custom
 B3F-1000
 
 
 0
 4
 4
+Custom
+DESPI-C579
+
+
+0
+8
+8
 Custom
 FPC_15
 
@@ -59282,6 +59303,13 @@ Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u
 0
 6
 2
+Custom
+SH1122 256x64 OLED Display Module
+
+
+0
+7
+7
 Custom
 TPS795
 

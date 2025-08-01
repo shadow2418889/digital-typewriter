@@ -153,12 +153,26 @@ Before I start the layouting of the mainboard, I wanted to get an idea of how ev
 Then I started finding componenets on JLC for all the basic SMD components. Because the mainboard PCB will be 2 layer, I decided on 0805 size so that I could run traces underneath all the components if necessary.
 
 I made a couple custom footprints (diodes, LDO, buttons) but the one that gave me the most headache was the USB-C connector. Not wanting to risk a faulty connection with the connector ordered from JLCPCB, I had to go into the datasheet and faithfully recreate the footprint and pin assignments:
+
 ![usb c footprint](./journal%20assets/usb-c%20footprint.png)
+
 After that ordeal, I am much more grateful towards the uniformity of mechanical drawings and the standardization of USB connectors.
 
 With this major headache out of the way, the only footprints left to design are the ones that will be wired to the peripherals—then I can start laying everything out.
 
-**Total time spent: 5h**
+**Total time spent: 5.5h**
+
+# July 30th: Deep Sleep Testing and Footprints
+
+I took the time to test the ESP32's deep sleep and wakeup functions through the espressif example code. This was a rabbit hole. The serial monitor on Platformio suddently stopped working (probably because the ESP32 disconnected from the USB CDC when it went to sleep) and left me confused for awhile—I ended up switching to Arduino IDE and was able to get the ESP32=S3 to go into deep sleep and wake through ext0.
+
+![deep sleep breadboard](./journal%20assets/deep%20sleep%20breadboard.jpg)
+
+After that ordeal, I finished the footprints for the peripherals and organized everything in a diagram to check wiring (and redesigned the keyboard slighly to shift the ffc connector):
+![pre-layout diagram](./journal%20assets/prelayout.png)
+
+
+**Total time spent: 4h**
 
 # Month Day: Title
 
