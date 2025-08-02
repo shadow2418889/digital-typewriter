@@ -171,8 +171,13 @@ I took the time to test the ESP32's deep sleep and wakeup functions through the 
 After that ordeal, I finished the footprints for the peripherals and organized everything in a diagram to check wiring (and redesigned the keyboard slighly to shift the ffc connector):
 ![pre-layout diagram](./journal%20assets/prelayout.png)
 
+With a bit of finagling, I got all the componenets layouted and connected. I am folling [this tutorial](https://www.digikey.com/en/maker/projects/how-to-route-differential-pairs-in-kicad-for-usb/45b99011f5d34879ae1831dce1f13e93) to make sure that my USB lines will function properly(I still need to add a ground plane and length match the traces).
 
-**Total time spent: 4h**
+![layout step one](./journal%20assets/layouting%20part%201.png)
+
+With this step done, I can add in the traces for the gpio pins and make space for some mounting holes
+
+**Total time spent: 6.5h**
 
 # Month Day: Title
 

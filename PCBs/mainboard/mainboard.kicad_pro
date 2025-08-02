@@ -505,6 +505,20 @@
         "track_width": 0.2,
         "via_diameter": 0.4,
         "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.77,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB Data",
+        "pcb_color": "rgb(255, 235, 0)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -644,6 +658,18 @@
       {
         "netclass": "Signal",
         "pattern": "GPIO10"
+      },
+      {
+        "netclass": "USB Data",
+        "pattern": "D-"
+      },
+      {
+        "netclass": "USB Data",
+        "pattern": "D+"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "GPIO7"
       }
     ]
   },

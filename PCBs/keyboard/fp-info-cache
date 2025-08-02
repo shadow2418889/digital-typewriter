@@ -1,4 +1,4 @@
-27619752409456747
+27637291401708237
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59220,12 +59220,61 @@ ceramic
 3
 3
 Custom
+1N5819HW-7-F
+
+
+0
+2
+2
+Custom
+Adafruit MicroSD Module
+
+
+0
+9
+9
+Custom
+Adafruit bq25185 Module
+
+
+0
+4
+4
+Custom
+B3F-1000
+
+
+0
+4
+4
+Custom
+DESPI-C579
+
+
+0
+8
+8
+Custom
 FPC_15
 
 
 0
 17
 17
+Custom
+KT-0805G
+
+
+0
+2
+2
+Custom
+LESD5D5
+
+
+0
+2
+2
 Custom
 MX Hotswap_Choc_V1_Plated_1.00u
 Choc keyswitch V1 CPG1350 V1 Hotswap Plated Keycap 1.00u
@@ -59254,6 +59303,27 @@ Choc Keyswitch Switch CPG1350 V1 Hotswap Plated Cutout Keycap 1.00u
 0
 6
 2
+Custom
+SH1122 256x64 OLED Display Module
+
+
+0
+7
+7
+Custom
+TPS795
+
+
+0
+6
+6
+Custom
+USB_C_Receptacle_16P
+
+
+0
+16
+11
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
