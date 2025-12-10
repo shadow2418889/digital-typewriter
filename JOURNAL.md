@@ -179,7 +179,9 @@ With this step done, I can add in the traces for the gpio pins and make space fo
 
 **Total time spent: 6.5h**
 
-# Month Day: Title
+# Most Recent Update
+Added in the traces to the other breakout boards. 
+Took a couple of tries but I fixed all the remaining DRC errors. Hopefully the mainboard is ready for fabrication.
+![finished mainboard](./journal%20assets/finished%20mainboard.png)
 
-
-**Total time spent: time**
+**Total time spent: 5hs**
